@@ -30,7 +30,7 @@ fn hello() -> String{
         Ok(file) => file,
         Err(_) => panic!("Could not create the file"),
     };
-    match reqwest::get("http://api.openweathermap.org/data/2.5/weather?q=Karachi&appid=096e67e4ec26ba0c008428b7283201e7"){
+    match reqwest::get("http://api.openweathermap.org/data/2.5/weather?q=Karachi&appid="){
         Ok(mut response) => {    // getting response of API
             match response.text(){          // for writting response into text file
                 Ok(text) => match file.write_all(text.as_bytes()){ //writting all response to the file
