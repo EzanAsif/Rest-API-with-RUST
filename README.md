@@ -1,4 +1,4 @@
-# Rest-API-with-RUST
+# Rest API with RUST
 Created a simple rest api with RUST and ROCKET.
 
 This app uses API from http://api.openweathermap.org/ 
@@ -7,3 +7,4 @@ To tackle limited API calls.
 Will make it dynamic which will take City name from User and show it's weater
 
 Sigin at openweathermap.org and add your API key on line 33 in src/main.rs
+And then cargo run to run the app but make sure rust nightly is installed on your PC
