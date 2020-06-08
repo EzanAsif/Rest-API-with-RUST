@@ -1,5 +1,5 @@
 # Rest-API-with-RUST
-Created a simple rest api with RUST.
+Created a simple rest api with RUST and ROCKET.
 
 This app uses API from http://api.openweathermap.org/ 
 And saves data of a particular city locally in api.json
